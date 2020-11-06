@@ -26,3 +26,5 @@ def send_echo(message):
 bot.polling( none_stop = True )
 
 token - os.environ.get("BOT_TOKEN")
+
+bot.run(str(token))
